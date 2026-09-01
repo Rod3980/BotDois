@@ -1,10 +1,8 @@
 name: Enviar achadinhos ao grupo (a cada hora)
 
 on:
-  # Roda automaticamente todo santo dia, de hora em hora, no minuto 0.
   schedule:
     - cron: '0 * * * *'
-  # Permite clicar em "Run workflow" na aba Actions do GitHub para testar na hora.
   workflow_dispatch: {}
 
 jobs:
